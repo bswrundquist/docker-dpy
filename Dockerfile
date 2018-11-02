@@ -1,5 +1,3 @@
-FROM python:3.6-slim
-
-USER root
+FROM python:3.6
 
 RUN pip install docker
